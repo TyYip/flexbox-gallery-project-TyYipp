@@ -23,19 +23,23 @@ html,
 
 }
 .child{
-    border: 1px solid red;
+    border: 1px solid lightblue;
     background-color: orange;
     width: 200px;
     height: 200px;
-    margin-top: 20px;
-    box-shadow: 40px 40px 50px lightcoral;
+    margin-top: 10rem auto;
+    box-shadow: 40px 40px 50px cyan;
 }
 .img{
+    flex-wrap: wrap;
+    align-items: center;
     height: 198px;
     width: 198px;
     object-fit: cover;
 }
 .text{
+    background-color: lightblue;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
 }
